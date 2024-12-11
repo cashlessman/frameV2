@@ -5,14 +5,14 @@ const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-  imageUrl: `https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/3846edf6-58ad-419b-0519-216a0e730c00/original`,
+  imageUrl: `https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/4511bc5d-4be0-46ac-6a45-1bd5ebb47c00/original`,
   button: {
     title: "Fame by @cashlessman.eth",
     action: {
       type: "launch_frame",
       name: "Frame v2 by @cashlessman.eth",
       url: appUrl,
-      splashImageUrl: `https://wrpcd.net/cdn-cgi/image/fit=contain,f=auto,w=1200/https%3A%2F%2Fsupercast.mypinata.cloud%2Fipfs%2FQmerbDHWXkZ1f3UBvpbqnSrAHEgupqd2divk5j25vvCfaj%3Ffilename%3D3825D3F5-A2FA-4440-B545-1462A2B03705_1_105_c.jpeg`,
+      splashImageUrl: `https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a74b030e-2d92-405c-c2d0-1696f5d51d00/original`,
       splashBackgroundColor: "#CEA2FD",
     },
   },

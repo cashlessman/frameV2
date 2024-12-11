@@ -49,7 +49,7 @@ export async function GET(req: NextRequest) {
             }
 
             const { fid: userFid, username, displayName, pfp } = user;
-            let pfpUrl = pfp?.url || null;
+            const pfpUrl = pfp?.url || null;
 
 
             return {

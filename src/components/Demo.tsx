@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useCallback, useState, useMemo } from "react";
+import { useEffect, useCallback, useState } from "react";
 import sdk, {
-  FrameNotificationDetails,
   type FrameContext,
 } from "@farcaster/frame-sdk";
 
@@ -16,12 +15,12 @@ export default function Demo(
 ) {
   const [isSDKLoaded, setIsSDKLoaded] = useState(false);
   const [context, setContext] = useState<FrameContext>();
-  const [isContextOpen, setIsContextOpen] = useState(false);
-  const [txHash, setTxHash] = useState<string | null>(null);
-  const [addFrameResult, setAddFrameResult] = useState("");
-  const [notificationDetails, setNotificationDetails] =
-    useState<FrameNotificationDetails | null>(null);
-  const [sendNotificationResult, setSendNotificationResult] = useState("");
+  // const [isContextOpen, setIsContextOpen] = useState(false);
+  // // const [txHash, setTxHash] = useState<string | null>(null);
+  // const [addFrameResult, setAddFrameResult] = useState("");
+  // const [notificationDetails, setNotificationDetails] =
+  //   useState<FrameNotificationDetails | null>(null);
+  // const [sendNotificationResult, setSendNotificationResult] = useState("");
 
   useEffect(() => {
     const load = async () => {
@@ -66,10 +65,10 @@ export default function Demo(
     }
   }, []);
 
-  const renderError = (error: Error | null) => {
-    if (!error) return null;
-    return <div className="text-red-500 text-xs mt-1">{error.message}</div>;
-  };
+  // const renderError = (error: Error | null) => {
+  //   if (!error) return null;
+  //   return <div className="text-red-500 text-xs mt-1">{error.message}</div>;
+  // };
 
   const  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/7df1c31c-5721-4d33-2d2c-a102a8b3ca00/original" 
 useEffect(() => {
@@ -319,7 +318,7 @@ useEffect(() => {
 }
 
 
-const renderError = (error: Error | null) => {
-  if (!error) return null;
-  return <div className="text-red-500 text-xs mt-1">{error.message}</div>;
-};
+// const renderError = (error: Error | null) => {
+//   if (!error) return null;
+//   return <div className="text-red-500 text-xs mt-1">{error.message}</div>;
+// };

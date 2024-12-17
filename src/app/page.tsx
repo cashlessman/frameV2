@@ -5,7 +5,8 @@ const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-imageUrl: `https://github.com/jpfraneto/images/blob/main/banner-2-anky.png?raw=true`,  button: {
+imageUrl: `https://raw.githubusercontent.com/cashlessman/frameV2/refs/heads/master/photo_2024-12-17_21-56-59.jpg`,  
+  button: {
     title: "Frame v2 by @cashlessman.eth",
     action: {
       type: "launch_frame",

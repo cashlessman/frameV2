@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import App from "./app";
 
-const appUrl = `https://around-v2.vercel.app/`;
+const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-  imageUrl: `https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/4511bc5d-4be0-46ac-6a45-1bd5ebb47c00/original`,
+  imageUrl: `https://github.com/user-attachments/assets/3b78e3d2-9419-4d2b-ae06-d4b79a8a33f1`,
   button: {
-    title: "Fame by @cashlessman.eth",
+    title: "SEE",
     action: {
       type: "launch_frame",
       name: "Frame v2 by @cashlessman.eth",

@@ -7,7 +7,7 @@ const frame = {
   version: "next",
 imageUrl: `https://raw.githubusercontent.com/cashlessman/images/refs/heads/main/banner.png`,  
   button: {
-    title: "Frame v2 by @cashlessman.eth",
+    title: "by @cashlessman.eth",
     action: {
       type: "launch_frame",
       name: "SEE",

@@ -5,12 +5,11 @@ const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-  imageUrl: `https://github.com/user-attachments/assets/3b78e3d2-9419-4d2b-ae06-d4b79a8a33f1`,
-  button: {
-    title: "SEE",
+imageUrl: `https://github.com/jpfraneto/images/blob/main/banner-2-anky.png?raw=true`,  button: {
+    title: "Frame v2 by @cashlessman.eth",
     action: {
       type: "launch_frame",
-      name: "Frame v2 by @cashlessman.eth",
+      name: "SEE",
       url: appUrl,
       splashImageUrl: `https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a74b030e-2d92-405c-c2d0-1696f5d51d00/original`,
       splashBackgroundColor: "#CEA2FD",

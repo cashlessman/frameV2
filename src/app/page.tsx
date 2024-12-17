@@ -5,7 +5,7 @@ const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-imageUrl: `https://raw.githubusercontent.com/cashlessman/frameV2/refs/heads/master/photo_2024-12-17_21-56-59.jpg`,  
+imageUrl: `https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/ded57a62-8a23-4a8a-fee4-5da9eaa60500/original`,  
   button: {
     title: "Frame v2 by @cashlessman.eth",
     action: {

@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import App from "./app";
 
-const appUrl = process.env.NEXT_PUBLIC_URL;
+const appUrl = "https://around-v2.vercel.app/";
 
 const frame = {
   version: "next",
